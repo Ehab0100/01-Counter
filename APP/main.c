@@ -64,6 +64,10 @@ int main()
 			L_u8counter[2]=0;
 		}
 
+		if( L_u8counter[1] == 9 && L_u8counter[2] == 9 )
+		{
+			flag=0;
+		}
 
 
 	}
