@@ -21,7 +21,7 @@ void HKPD_voidInit()
 u8 HKPD_U8PressedKey()
 {
 	u8 L_u8ButtonValue=3;
-	u8 L_u8ButtonNO=20;
+	u8 L_u8ButtonNO=' ';
 
 	for(u8 row=0;row<4;row++)
 	{
